@@ -100,12 +100,9 @@
                     posibilidades del arte en relación con la tecnología.
                 </p>
 
-            </section>
 
             <!-- Video sobre Casey Reas-->
-            <section>
-
-
+            
                 <iframe
                     width="560"
                     height="315"
@@ -118,19 +115,140 @@
 
 
             <!-- Resolución del ejercicio -->
-            <section>
+            <!-- ====================================================== -->
+            <!-- Ejercicio -->
+            <!-- ====================================================== -->
+        <section>
 
-                <h3>Ejercicio</h3>
+                <h2>Producción de instalaciones</h2>
 
-                <p>
-                    Ingresá los datos solicitados
-                </p>
+                    <p>
+                        Complete los datos solicitados para calcular los costos de producción
+                        del estudio artístico de Casey Reas.
+                    </p>
 
-        
+                            <!-- ========================== -->
+            <!-- Formulario de datos generales -->
+            <!-- ========================== -->
+            <form id="formGeneral">
 
-            </section>
+                <label for="cantidadInstalaciones">
+                    Cantidad de instalaciones
+                </label>
 
-        </div>
+                <input
+                    type="number"
+                    id="cantidadInstalaciones"
+                    min="1">
+
+                <label for="horasDia">
+                    Horas de trabajo por día
+                </label>
+
+                <input
+                    type="number"
+                    id="horasDia"
+                    min="1">
+
+                <label for="valorHora">
+                    Honorario por hora
+                </label>
+
+                <input
+                    type="number"
+                    id="valorHora"
+                    min="1">
+
+                <button
+                    type="button"
+                    id="btnComenzar">
+
+                    Comenzar carga
+
+                </button>
+
+            </form>
+
+                    <!-- ========================== -->
+                    <!-- Formulario de instalaciones -->
+                    <!-- ========================== -->
+                    <form id="formInstalacion">
+
+                        <label for="nombreInstalacion">
+                            Nombre de la instalación
+                        </label>
+
+                        <input
+                            type="text"
+                            id="nombreInstalacion">
+
+                        <label for="cantidadPersonas">
+                            Cantidad de personas
+                        </label>
+
+                        <input
+                            type="number"
+                            id="cantidadPersonas"
+                            min="1">
+
+                        <label for="cantidadDias">
+                            Cantidad de días de producción
+                        </label>
+
+                        <input
+                            type="number"
+                            id="cantidadDias"
+                            min="1">
+
+                        <button
+                            type="button"
+                            id="btnAgregar">
+
+                            Agregar instalación
+
+                        </button>
+
+                    </form>
+
+                    <!-- ========================== -->
+                    <!-- Botón para calcular -->
+                    <!-- ========================== -->
+                    <button
+                        type="button"
+                        id="btnCalcular"
+                        disabled>
+
+                        Calcular resultados
+
+                    </button>
+
+        </section>
+
+                <!-- ====================================================== -->
+                <!-- Resultados -->
+                <!-- ====================================================== -->
+        <section>
+
+                    <h2>Resultados</h2>
+
+                    <p id="resultado1"></p>
+
+                    <p id="resultado2"></p>
+
+                    <p id="resultado3"></p>
+
+                    <button
+                        type="button"
+                        id="btnReiniciar"
+                        disabled>
+
+                        Reiniciar
+
+                    </button>
+
+        </section>
+
+    </div>
 
     </main>
 
