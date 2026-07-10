@@ -37,7 +37,7 @@ main{
     max-width: 65rem;
     margin: 2rem;
     padding: 2rem;
-    background: rgb(255,255,255);
+    background: rgb(255, 255, 255);
     border-radius: 0.6rem;
 
 }
@@ -341,7 +341,7 @@ label{
 
 input{
 
-    width: 100%;
+    width: 20%;
     padding: 0.6rem;
     margin-bottom: 0.8rem;
     border: 0.1rem solid #6a8ca5;
@@ -354,7 +354,7 @@ input{
 
 button{
 
-    padding: 0.7rem 1.4rem;
+    padding: 1rem;
     margin-top: 0.5rem;
     border: none;
     border-radius: 0.3rem;
@@ -385,11 +385,12 @@ button:disabled{
 #resultado1,
 #resultado2,
 #resultado3{
-
+    
+    width: 30%;
     margin-top: 1rem;
     padding: 0.8rem;
     border: 0.1rem solid #6a8ca5;
-    background-color: rgba(255,255,255,0.08);
+    background-color: rgb(255,255,255);
 
 }
 

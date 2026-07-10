@@ -29,7 +29,7 @@ let dato = document.querySelector("#datoCurioso")
 
 
 // ==========================
-// Función que asigna un dato al elemento
+// Función que asigna un dato al elemento\
 // ==========================
 
 function mostrarDatoAleatorio() {
