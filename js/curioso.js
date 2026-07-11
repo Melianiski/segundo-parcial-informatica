@@ -16,13 +16,11 @@ let curiosidades = [
 ]
 
 // ==========================
-// Captura de elementos
+// Captura de elementos\
 // ==========================
 
 
 let foto = document.querySelector("#fotoReas")
-
-
 
 let dato = document.querySelector("#datoCurioso")
 
@@ -38,8 +36,8 @@ function mostrarDatoAleatorio() {
 }
 
 
-// ==========================
-// Evento
+// ==========================\
+// Evento'
 // ==========================
 
 foto.addEventListener("click", mostrarDatoAleatorio);

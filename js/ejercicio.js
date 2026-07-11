@@ -1,6 +1,6 @@
 // ===================================
-// Array de instalaciones
-// ===================================
+// Array de instalaciones\
+// ===================================\
 let instalaciones = [];
 
 // ===================================
@@ -149,7 +149,7 @@ function calcularResultados(){
 
     let porcentaje = costoMayor * 100 / costoTotal;
     
-    porcentaje = Math.round(porcentaje * 100) / 100; // redondear el resultado del porcentaje
+    porcentaje = Math.round(porcentaje * 100) / 100; // redondea el resultado del porcentaje
 
     resultado1.innerHTML =
     "Costo total de un día de trabajo: $" + costoDia;
@@ -167,7 +167,7 @@ function calcularResultados(){
 
     btnCalcular.disabled = true;
     btnReiniciar.disabled = false;
-
+''
 }
 
 // ===================================
